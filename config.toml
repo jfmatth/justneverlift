@@ -1,0 +1,24 @@
+theme = "simple-blog"
+baseURL = "/"
+title = "JustNeverLift.com"
+copyright = "© 2020 copyright text."
+paginate = 3
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[params]
+description = "My Driving techniques to make you go faster"
